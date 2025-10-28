@@ -1,12 +1,2 @@
-header {
-  background-color: orange;
-  display: flex;
-
-  .header__wrapper {
-    background-color: pink;
-  }
-
-  .nav{
-    background-color: lightblue;
-  }
-}
+@use 'global';
+@use 'components';
