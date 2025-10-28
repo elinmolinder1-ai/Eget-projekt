@@ -1,0 +1,18 @@
+// utils/_mixins.scss
+@mixin respond($breakpoint) {
+  @if $breakpoint == small {
+    @media screen and (max-width: 600px) {
+      @content;
+    }
+  }
+  @else if $breakpoint == tablet {
+    @media screen and (min-width: 780px){
+      @content;
+    }
+  }
+  @else if $breakpoint == desktop {
+    @media screen and (min-width: 1025px) {
+      @content;
+    }
+  }
+}
