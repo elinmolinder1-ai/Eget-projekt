@@ -1,3 +1,10 @@
 header {
   background-color: orange;
+  display: flex;
+}
+header .header__wrapper {
+  background-color: pink;
+}
+header .nav {
+  background-color: lightblue;
 }
