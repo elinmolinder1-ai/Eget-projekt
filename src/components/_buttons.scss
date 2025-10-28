@@ -1,0 +1,9 @@
+@use '../utils/variables' as *;
+
+
+.button{
+  padding: $spacing-unit;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+}

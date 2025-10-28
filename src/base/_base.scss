@@ -1,6 +1,8 @@
+@use '../utils/variables' as *;
+
 body{
   margin:0;
-  font-family: $font-base;
+  font-family: "Roboto", sans-serif;
   color: $color-dark;
   background: $color-light;
 }

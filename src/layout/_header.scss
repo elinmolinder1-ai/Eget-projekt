@@ -1,0 +1,40 @@
+@use '../utils/variables' as *;
+
+
+.header {
+  background: $color-primary;
+  padding: $spacing-unit;
+  color: white;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    &-list {
+      list-style: none;
+      display: flex;
+      gap: $spacing-unit;
+      margin: 0;
+      padding: 0;
+    }
+
+    &-item {
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.logo img {
+  max-height: 40px;
+}

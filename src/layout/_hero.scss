@@ -1,0 +1,6 @@
+@use '../utils/variables' as *;
+
+.hero {
+  padding: $spacing-unit;
+  text-align: center;
+}
